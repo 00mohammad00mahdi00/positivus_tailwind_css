@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family: "GroteskLight";
+    font-weight: 300;
+    font-style: normal;
+    src: url("./fonts/SpaceGrotesk-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "GroteskRegular";
+    font-weight: 400;
+    font-style: normal;
+    src: url("./fonts/SpaceGrotesk-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "GroteskMedum";
+    font-weight: 500;
+    font-style: normal;
+    src: url("./fonts/SpaceGrotesk-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "GroteskSimiBold";
+    font-weight: 600;
+    font-style: normal;
+    src: url("./fonts/SpaceGrotesk-SemiBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "GroteskBOld";
+    font-weight: 700;
+    font-style: normal;
+    src: url("./fonts/SpaceGrotesk-Bold.ttf") format("truetype");
+}
+
+@theme {
+   
+    --breakpoint-2xl: initial;
+    --color-primary: #B9FF66;
+    --color-secondary:#191A23;
+    --color-third:#F3F3F3;
+    --font-300: "GroteskLight";
+    --font-400: "GroteskRegular";
+    --font-500: "GroteskMedium";
+    --font-600: "GroteskSimiBold";
+    --font-700: "GroteskBold";
+  }
