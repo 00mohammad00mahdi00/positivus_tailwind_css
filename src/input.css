@@ -42,11 +42,26 @@
     --color-primary: #B9FF66;
     --color-secondary:#191A23;
     --color-third:#F3F3F3;
-    --font-*:initial
     --font-300: "GroteskLight";
     --font-400: "GroteskRegular";
     --font-500: "GroteskMedium";
     --font-600: "GroteskSimiBold";
     --font-700: "GroteskBold";
     
+  }
+
+
+  @layer components {
+    .btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        border:1px solid black;
+        border-radius: 12px;
+        padding: 16px 0;
+        width: 100%;
+        max-width: 230px;
+        font-size: 20px;
+    }
   }
