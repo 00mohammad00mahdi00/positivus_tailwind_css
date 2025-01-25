@@ -33,16 +33,20 @@
     font-style: normal;
     src: url("./fonts/SpaceGrotesk-Bold.ttf") format("truetype");
 }
-
+*{
+    font-family: "GroteskRegular";
+}
 @theme {
    
     --breakpoint-2xl: initial;
     --color-primary: #B9FF66;
     --color-secondary:#191A23;
     --color-third:#F3F3F3;
+    --font-*:initial
     --font-300: "GroteskLight";
     --font-400: "GroteskRegular";
     --font-500: "GroteskMedium";
     --font-600: "GroteskSimiBold";
     --font-700: "GroteskBold";
+    
   }

@@ -5,9 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="./images/index/Icon.png" type="image/png">
+    <script src="./scripts/app.js" defer></script>
     <title>Positivus</title>
 </head>
 <body>
+    <!-- 
     
+        --------------------------------------------------------------------
+           * this is section header
+        --------------------------------------------------------------------
+    
+    -->
+
+    <header>
+        <div class="container mx-auto px-4">
+            <!-- this is section navigation -->
+            <nav class="flex justify-between items-center py-6">
+                <!-- this is logo header -->
+                <div>
+                    <img class="w-[150px] lg:w-[200px] transition-all duration-300" src="./images/index/svg/header_logo.svg" alt="logo icon header">
+                </div>
+                <!-- this is menu mobile -->
+                <div id="menuMobile" class="md:hidden bg-third fixed top-0 bottom-0 w-[250px] z-40 p-4 py-6 -left-[250px] transition-all duration-300">
+                    <img class="w-[150px]" src="./images/index/svg/header_logo.svg" alt="logo icon header">
+                    <ul class="flex flex-col gap-5  transition-all duration-300 mt-8">
+                        <li class="inline relative after:content-[''] after:block after:absolute after:bottom-0  after:top-0 after:left-0  after:rounded-full
+                        after:w-0 after:bg-secondary after:m-auto after:h-[3px] pl-0 hover:after:w-5 hover:pl-6 transition-all duration-300 after:transition-all after:duration-300 cursor-pointer">
+                            <a href="#" class="text-secondary text-sm">About us</a>
+                        </li>
+                        <li class="inline relative after:content-[''] after:block after:absolute after:bottom-0  after:top-0 after:left-0  after:rounded-full
+                        after:w-0 after:bg-secondary after:m-auto after:h-[3px] pl-0 hover:after:w-5 hover:pl-6 transition-all duration-300 after:transition-all after:duration-300 cursor-pointer">
+                            <a href="#" class="text-secondary text-sm">Services</a>
+                        </li>
+                        <li class="inline relative after:content-[''] after:block after:absolute after:bottom-0  after:top-0 after:left-0  after:rounded-full
+                        after:w-0 after:bg-secondary after:m-auto after:h-[3px] pl-0 hover:after:w-5 hover:pl-6 transition-all duration-300 after:transition-all after:duration-300 cursor-pointer">
+                            <a href="#" class="text-secondary text-sm">Use Cases</a>
+                        </li>
+                        <li class="inline relative after:content-[''] after:block after:absolute after:bottom-0  after:top-0 after:left-0  after:rounded-full
+                        after:w-0 after:bg-secondary after:m-auto after:h-[3px] pl-0 hover:after:w-5 hover:pl-6 transition-all duration-300 after:transition-all after:duration-300 cursor-pointer">
+                            <a href="#" class="text-secondary text-sm">Pricing</a>
+                        </li>
+                        <li class="inline relative after:content-[''] after:block after:absolute after:bottom-0  after:top-0 after:left-0  after:rounded-full
+                        after:w-0 after:bg-secondary after:m-auto after:h-[3px] pl-0 hover:after:w-5 hover:pl-6 transition-all duration-300 after:transition-all after:duration-300 cursor-pointer">
+                            <a href="#" class="text-secondary text-sm">Blog</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="flex items-center justify-center border-[1px] text-sm rounded-xl py-3 px-5 lg:py-4 lg:text-base  lg:px-8 xl:text-xl 
+                    hover:bg-black hover:text-white transition-all duration-300 mt-8 ">Request a quote</a>
+                </div>
+                <!-- this is menu desctop -->
+                <div class="hidden md:flex gap-5 lg:gap-7 xl:gap-10 items-center transition-all duration-300">
+                    <ul class="flex gap-5 lg:gap-7 xl:gap-10 items-center transition-all duration-300">
+                        <li class=""">
+                            <a href="#" class="text-secondary text-sm lg:text-base xl:text-xl block 
+                            relative after:content-[''] after:absolute after:right-0 after:-top-0.5 after:left-0 
+                            after:h-[3px] after:w-0 after:bg-secondary  after:mx-auto hover:after:w-full after:transition-all after:duration-300
+                            after:rounded-full">About us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-secondary text-sm lg:text-base xl:text-xl block 
+                            relative after:content-[''] after:absolute after:right-0 after:-top-0.5 after:left-0 
+                            after:h-[3px] after:w-0 after:bg-secondary  after:mx-auto hover:after:w-full after:transition-all after:duration-300
+                            after:rounded-full">Services</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-secondary text-sm lg:text-base xl:text-xl block 
+                            relative after:content-[''] after:absolute after:right-0 after:-top-0.5 after:left-0 
+                            after:h-[3px] after:w-0 after:bg-secondary  after:mx-auto hover:after:w-full after:transition-all after:duration-300
+                            after:rounded-full">Use Cases</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-secondary text-sm lg:text-base xl:text-xl block 
+                            relative after:content-[''] after:absolute after:right-0 after:-top-0.5 after:left-0 
+                            after:h-[3px] after:w-0 after:bg-secondary  after:mx-auto hover:after:w-full after:transition-all after:duration-300
+                            after:rounded-full">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-secondary text-sm lg:text-base xl:text-xl block 
+                            relative after:content-[''] after:absolute after:right-0 after:-top-0.5 after:left-0 
+                            after:h-[3px] after:w-0 after:bg-secondary  after:mx-auto hover:after:w-full after:transition-all after:duration-300
+                            after:rounded-full">Blog</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="block border-[1px] text-sm rounded-xl py-3 px-5 lg:py-4 lg:text-base  lg:px-8 xl:text-xl 
+                    hover:bg-black hover:text-white transition-all duration-300">Request a quote</a>
+                </div>
+                <!-- tihs is menu bar -->
+                <div id="menuBar" class="md:hidden relative w-8 h-8 flex flex-col items-center justify-center cursor-pointer z-50">
+                    <span id="menuBarLinetop" class="absolute block w-full h-[4px] bg-secondary rounded-full translate-y-2 
+                    transition-all duration-300"></span>
+                    <span id="menuBarLineCenter" class="absoluteblock w-full h-[4px] bg-secondary rounded-full
+                    transition-all duration-300"></span>
+                    <span id="menuBarLineBottom" class="absolute block w-full h-[4px] bg-secondary rounded-full -translate-y-2
+                    transition-all duration-300"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
 </body>
 </html>
