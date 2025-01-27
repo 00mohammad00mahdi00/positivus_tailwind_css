@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="./images/index/Icon.png" type="image/png">
     <script src="./scripts/app.js" defer></script>
+    <script src="./scripts/cdn.js" defer></script>
     <title>Positivus</title>
 </head>
 <body>
@@ -17,7 +18,7 @@
     
     -->
 
-    <header>
+    <header class="py-5">
         <div class="container mx-auto px-4">
             <!-- this is section navigation -->
             <nav class="flex justify-between items-center py-6">
@@ -114,5 +115,557 @@
             </div>
         </div>
     </header>
+
+    <!-- 
+    
+        --------------------------------------------------------------------
+            * this is section main
+        --------------------------------------------------------------------
+    
+    -->
+    <main>
+        <!-- this is section icon company -->
+         <section class="py-10">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-wrap justify-between items-center gap-10">
+                    <img class="mx-auto" src="./images/index/svg/company_icon_1.svg" alt="icon company">
+
+                    <img class="mx-auto" src="./images/index/svg/company_icon_2.svg" alt="icon company">
+
+                    <img class="mx-auto" src="./images/index/svg/compony_icon_3.svg" alt="icon company">
+
+                    <img class="mx-auto" src="./images/index/svg/compony_icon_4.svg" alt="icon company">
+
+                    <img class="mx-auto" src="./images/index/svg/compony_icon_5.svg" alt="icon company">
+
+                    <img class="mx-auto" src="./images/index/svg/compony_icon_6.svg" alt="icon company">
+                </div>
+            </div>
+         </section>
+        <!-- this is section services -->
+         <section class="py-20">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col  md:flex-row  gap-10 ">
+                    <h2 class="text-4xl !font-700 bg-primary inline-block py-2 px-3 rounded-lg mx-auto md:mx-0">Services</h2>
+                    <p class="text-center md:text-left max-w-[520px]">At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
+                </div>
+                <!-- this is wrapper card -->
+                <div class="pt-20 grid grid-cols-12 place-items-center gap-y-10 md:gap-10">
+                    <!-- this is card -->
+                    <div class="service__card max-[490px]:h-[300px] bg-third col-span-12 md:col-span-6 flex flex-col justify-between">
+                        <div>
+                            <h2 class="text-3xl !font-700 bg-primary inline-block">Search engine</h2>
+                            <br>
+                            <h2 class="text-3xl !font-700 bg-primary inline-block">optimization</h2>
+                        </div>
+                        <div class="flex items-end justify-between mt-2 sm:mt-0">
+                            <div class="flex items-center gap-4">
+                                <div class="cursor-pointer w-10 h-10 bg-secondary flex items-center justify-center rounded-full">
+                                    <a href="#">
+                                        <img src="./images/index/svg/learn_more_icon.svg" alt="icon learn more">
+                                    </a>
+                                </div>
+                                <p class="hidden min-[470px]:block md:hidden lg:block">Learn more</p>
+                            </div>
+                            <img class="block  lg:relative lg:-top-10 w-[150px] min-[490px]:w-[200px]" src="./images/index/service_1.png" alt="image services">
+                        </div>
+                    </div>  
+                    <!-- this is card -->
+                    <div class="service__card max-[490px]:h-[300px] bg-primary col-span-12 md:col-span-6 flex flex-col justify-between">
+                        <div>
+                            <h2 class="text-3xl !font-700 bg-white inline-block">Pay-per-click</h2>
+                            <br>
+                            <h2 class="text-3xl !font-700 bg-white inline-block">advertising</h2>
+                        </div>
+                        <div class="flex items-end justify-between mt-2 sm:mt-0">
+                            <div class="flex items-center gap-4">
+                                <div class="cursor-pointer w-10 h-10 bg-secondary flex items-center justify-center rounded-full">
+                                    <a href="#">
+                                        <img src="./images/index/svg/learn_more_icon.svg" alt="icon learn more">
+                                    </a>
+                                </div>
+                                <p class="hidden min-[470px]:block  md:hidden lg:block">Learn more</p>
+                            </div>
+                            <img class="block  lg:relative lg:-top-10 w-[150px] min-[490px]:w-[200px]" src="./images/index/service_2.png" alt="image services">
+                        </div>
+                    </div>
+                    <!-- this is card -->
+                    <div class="service__card max-[490px]:h-[300px] bg-secondary col-span-12 md:col-span-6 flex flex-col justify-between">
+                        <div>
+                            <h2 class="text-3xl !font-700 bg-primary inline-block">Social Media</h2>
+                            <br>
+                            <h2 class="text-3xl !font-700 bg-primary inline-block">Marketing</h2>
+                        </div>
+                        <div class="flex items-end justify-between mt-2 sm:mt-0">
+                            <div class="flex items-center gap-4">
+                                <div class="cursor-pointer w-10 h-10 bg-white flex items-center justify-center rounded-full">
+                                    <a href="#">
+                                        <img src="./images/index/svg/learn_more_black.svg" alt="icon learn more">
+                                    </a>
+                                </div>
+                                <p class="text-white hidden min-[470px]:block  md:hidden lg:block">Learn more</p>
+                            </div>
+                            <img class="block  lg:relative lg:-top-10 w-[150px] min-[490px]:w-[170px]" src="./images/index/service_3.png" alt="image services">
+                        </div>
+                    </div>
+                    <!-- this is card -->
+                    <div class="service__card max-[490px]:h-[300px] bg-third col-span-12 md:col-span-6 flex flex-col justify-between">
+                        <div>
+                            <h2 class="text-3xl !font-700 bg-primary inline-block">Email</h2>
+                            <br>
+                            <h2 class="text-3xl !font-700 bg-primary inline-block">Marketing</h2>
+                        </div>
+                        <div class="flex items-end justify-between mt-2 sm:mt-0">
+                            <div class="flex items-center gap-4">
+                                <div class="cursor-pointer w-10 h-10 bg-secondary flex items-center justify-center rounded-full">
+                                    <a href="#">
+                                        <img src="./images/index/svg/learn_more_icon.svg" alt="icon learn more">
+                                    </a>
+                                </div>
+                                <p class="hidden min-[470px]:block  md:hidden lg:block">Learn more</p>
+                            </div>
+                            <img class="block  lg:relative lg:-top-10 w-[150px] min-[490px]:w-[200px]" src="./images/index/service_4.png" alt="image services">
+                        </div>
+                    </div>
+                    <!-- this is card -->
+                    <div class="service__card max-[490px]:h-[300px]  bg-primary col-span-12 md:col-span-6 flex flex-col justify-between">
+                        <div>
+                            <h2 class="text-3xl !font-700 bg-white inline-block">Content</h2>
+                            <br>
+                            <h2 class="text-3xl !font-700 bg-white inline-block">Creation</h2>
+                        </div>
+                        <div class="flex items-end justify-between">
+                            <div class="flex items-center gap-4">
+                                <div class="cursor-pointer w-10 h-10 bg-secondary flex items-center justify-center rounded-full">
+                                    <a href="#">
+                                        <img src="./images/index/svg/learn_more_icon.svg" alt="icon learn more">
+                                    </a>
+                                </div>
+                                <p class="hidden min-[470px]:block  md:hidden lg:block">Learn more</p>
+                            </div>
+                            <img class="block  lg:relative lg:-top-10 w-[150px] min-[490px]:w-[200px]" src="./images/index/service_5.png" alt="image services">
+                        </div>
+                    </div>
+                    <!-- this is card -->
+                    <div class="service__card max-[490px]:h-[300px] flex flex-col justify-between bg-secondary col-span-12 md:col-span-6 place-content-end">
+                        <div>
+                            <h2 class="text-3xl !font-700 bg-primary inline-block">Analytics and </h2>
+                            <br>
+                            <h2 class="text-3xl !font-700 bg-primary inline-block">Tracking</h2>
+                        </div>
+                        <div class="flex items-end justify-between mt-2 sm:mt-0">
+                            <div class="flex items-center gap-4">
+                                <div class="cursor-pointer w-10 h-10 bg-white flex items-center justify-center rounded-full">
+                                    <a href="#">
+                                        <img src="./images/index/svg/learn_more_black.svg" alt="icon learn more">
+                                    </a>
+                                </div>
+                                <p class="text-white hidden min-[470px]:block  md:hidden lg:block">Learn more</p>
+                            </div>
+                            <img class="block  lg:relative lg:-top-10 w-[150px] min-[490px]:w-[200px]" src="./images/index/service_6.png" alt="image services">
+                        </div>
+                    </div>
+                </div>
+                <!-- this is box happen -->
+                <div class="bg-third w-full p-[35px] md:p-12 my-20 rounded-[35px] md:flex md:justify-between">
+                     <div class="md:w-1/2">
+                        <h2 class="text-2xl !font-700 lg:text-3xl">Let’s make things happen</h2>
+                        <p class="text-sm mt-7 lg:text-xl !font-500">Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
+                        <a href="#" class="btn mt-7 bg-black text-white max-w-full md:max-w-[288px]">Get your free proposal</a>
+                    </div>
+                    <div class="hidden md:block md:w-[30%]  lg:w-1/2 relative">
+                        <img class="lg:absolute h-full w-full lg:w-auto lg:h-auto -right-14 lg:-top-20" src="./images/index/happen.png" alt="image happen">
+                    </div>
+                </div>
+            </div>
+         </section>
+         <!-- this is section studies -->
+         <section class="overflow-hidden mb-20">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col md:flex-row items-center gap-10 mb-20">
+                    <h2 class="text-4xl !font-700 bg-primary inline-block py-2 px-3 rounded-lg mx-auto md:mx-0">Case Studies</h2>
+                    <p class="text-center md:text-left  w-full lg:w-[500px]">Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</p>
+                </div>
+                <!-- this is wrapper studies -->
+                <div class="flex w-[1280px] md:w-auto   md:bg-secondary rounded-[40px] p-5 md:justify-between overflow-hidden md:overflow-auto gap-5">
+                    <div class="bg-secondary w-full  max-w-[300px] md:w-[337px] text-white p-[35px] py-[35px]  rounded-[40px] 
+                    min-[1280px]:after:content-[''] relative  after:absolute  after:w-[1px] after:h-[90%] min-[1280px]:after:bg-white after:top-0 after:-right-16
+                    after:bottom-0 after:my-auto  md:border-r-2 md:border-r-white md:rounded-[0px] xl:border-0">
+                        <p class="text-sm lg:text-base">For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
+                        <div class="mt-10 flex gap-3 cursor-pointer">
+                            <p class="text-primary">Learn more</p>
+                            <img src="./images/index/svg/learn_more_icon.svg" alt="icon learn more">
+                        </div>
+                    </div>
+                    <div class="bg-secondary w-full  max-w-[300px] md:w-[337px] text-white p-[35px]   rounded-[40px] 
+                    min-[1280px]:after:content-[''] relative  after:absolute after:w-[2px] after:h-[90%] min-[1280px]:after:bg-white after:top-0 after:-right-16
+                    after:bottom-0 after:my-auto  md:border-r-2 md:border-r-white md:rounded-[0px] xl:border-0">
+                        <p class="text-sm lg:text-base">For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.</p>
+                        <div class="mt-10 flex gap-3 cursor-pointer">
+                            <p class="text-primary">Learn more</p>
+                            <img src="./images/index/svg/learn_more_icon.svg" alt="icon learn more">
+                        </div>
+                    </div>
+                    <div class="bg-secondary w-full md:rounded-0 md:broder-r-[1px] md:border-r-white  max-w-[300px] md:w-[337px] text-white p-[35px] rounded-[40px]">
+                        <p class="text-sm lg:text-base">For a national retail chain, we created a social media marketing campaign that increased followers by 25% and generated a 20% increase in online sales.</p>
+                        <div class="mt-10 flex gap-3 cursor-pointer">
+                            <p class="text-primary">Learn more</p>
+                            <img src="./images/index/svg/learn_more_icon.svg" alt="icon learn more">
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <!-- this is section working process -->
+         <section class="py-10">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col md:flex-row  md:gap-10 mb-10=">
+                    <h2 class="hidden md:inline-block  text-4xl !font-700  md:text-left bg-primary  py-2 px-3 rounded-lg mx-auto md:mx-0 mb-10">Our Working Process </h2>
+                    <h2 class="md:hidden text-4xl !font-700  md:text-left bg-primary  py-2 px-3 rounded-lg mx-auto md:mx-0">Our Working</h2>
+                    <h2 class="md:hidden text-4xl !font-700  md:text-left bg-primary  py-2 px-3 rounded-lg mx-auto md:mx-0 mb-10">Process</h2>
+                    <p class="text-center md:text-left  w-full md:w-[280px]">Step-by-Step Guide to Achieving Your Business Goals</p>
+                </div>
+                <!-- this is section wrapper content -->
+                <div class="flex flex-col gap-y-5">
+                    <div id="workingProcessCaer1" class="working__process__card bg-primary">
+                        <div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-5">
+                                    <h2 class="text-2xl sm:text-4xl !font-700">01</h2>
+                                    <p class="text-base sm:text-2xl !font-600">Consultation</p>
+                                </div>
+                                <div id="workingProcessBtn1" class="flex items-center justify-center cursor-pointer w-12 h-12 bg-[#F3F3F3] rounded-full border-[1px] border-black">
+                                    <img id="workingProcessIcon1" src="./images/index/svg/icon_substraction.svg" alt="icon substaction">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="workingProcessContent1" class="mt-10 pt-10 border-t-[1px] border-black">
+                            <p class="line-clamp-3">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+                        </div>
+                    </div>
+
+                    <div id="workingProcessCaer2" class="working__process__card bg-third">
+                        <div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-5">
+                                    <h2 class="text-2xl sm:text-4xl !font-700">02</h2>
+                                    <p class="text-base sm:text-2xl !font-600">Research and Development</p>
+                                </div>
+                                <div id="workingProcessBtn2" class="flex items-center justify-center cursor-pointer w-12 h-12 bg-[#F3F3F3] rounded-full border-[1px] border-black">
+                                    <img id="workingProcessIcon2" src="./images/index/svg/icon_Addition.svg" alt="icon substaction">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="workingProcessContent2" class="hidden mt-10 pt-10 border-t-[1px] border-black">
+                            <p class="line-clamp-3">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+                        </div>
+                    </div>
+
+                    <div id="workingProcessCaer3" class="working__process__card bg-third">
+                        <div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-5">
+                                    <h2 class="text-2xl sm:text-4xl !font-700">03</h2>
+                                    <p class="text-base sm:text-2xl !font-600">Implementation</p>
+                                </div>
+                                <div id="workingProcessBtn3" class="flex items-center justify-center cursor-pointer w-12 h-12 bg-[#F3F3F3] rounded-full border-[1px] border-black">
+                                    <img id="workingProcessIcon3" src="./images/index/svg/icon_Addition.svg" alt="icon substaction">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="workingProcessContent3" class="hidden mt-10 pt-10 border-t-[1px] border-black">
+                            <p class="line-clamp-3">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+                        </div>
+                    </div>
+
+                    <div id="workingProcessCaer4" class="working__process__card bg-third">
+                        <div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-5">
+                                    <h2 class="text-2xl sm:text-4xl !font-700">04</h2>
+                                    <p class="text-base sm:text-2xl !font-600">Monitoring and Optimization</p>
+                                </div>
+                                <div id="workingProcessBtn4" class="flex items-center justify-center cursor-pointer w-12 h-12 bg-[#F3F3F3] rounded-full border-[1px] border-black">
+                                    <img id="workingProcessIcon4" src="./images/index/svg/icon_Addition.svg" alt="icon substaction">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="workingProcessContent4" class="hidden mt-10 pt-10 border-t-[1px] border-black">
+                            <p class="line-clamp-3">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+                        </div>
+                    </div>
+
+                    <div id="workingProcessCaer5" class="working__process__card bg-third">
+                        <div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-5">
+                                    <h2 class="text-2xl sm:text-4xl !font-700">05</h2>
+                                    <p class="text-base sm:text-2xl !font-600">Reporting and Communication</p>
+                                </div>
+                                <div id="workingProcessBtn5" class="flex items-center justify-center cursor-pointer w-12 h-12 bg-[#F3F3F3] rounded-full border-[1px] border-black">
+                                    <img id="workingProcessIcon5" src="./images/index/svg/icon_Addition.svg" alt="icon substaction">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="workingProcessContent5" class="hidden mt-10 pt-10 border-t-[1px] border-black">
+                            <p class="line-clamp-3">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+                        </div>
+                    </div>
+
+                    <div id="workingProcessCaer6" class="working__process__card bg-third">
+                        <div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-5">
+                                    <h2 class="text-2xl sm:text-4xl !font-700">06</h2>
+                                    <p class="text-base sm:text-2xl !font-600">Continual Improvement</p>
+                                </div>
+                                <div id="workingProcessBtn6" class="flex items-center justify-center cursor-pointer w-12 h-12 bg-[#F3F3F3] rounded-full border-[1px] border-black">
+                                    <img id="workingProcessIcon6" src="./images/index/svg/icon_Addition.svg" alt="icon substaction">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="workingProcessContent6" class="hidden mt-10 pt-10 border-t-[1px] border-black">
+                            <p class="line-clamp-3">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <!-- thtis is section team -->
+         <section class="py-14 mb-6">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col items-center gap-10 md:flex-row">
+                    <h2 class="text-4xl !font-700 inline-block py-2 px-3 bg-primary rounded-lg">Team</h2>
+                    <p class="text-center md:text-left max-w-[450px]">Meet the skilled and experienced team behind our successful digital marketing strategies</p>
+                </div>
+                <!-- this is wrapper  box -->
+                 <div class="py-10 flex flex-wrap flex-col  md:flex-row lg:justify-around xl:justify-between gap-5 ">
+                    <!-- this is card -->
+                    <div class="team__card lg:max-w-[387px] relative mx-auto md:mx-0 min-[400px]:max-w-[90%]
+                    min-[500px]:max-w-[70%] md:max-w-[350px]">
+                        <span class="absolute bg-black rounded-full size-10 right-7 top-7 flex items-center justify-center">
+                            <img src="./images/index/svg/team__icon.svg" alt="">
+                        </span>
+                        <div class="flex items-end gap-5 mb-5">
+                            <img src="./images/index/team_1.png" alt="photo team">
+                            <div>
+                                <h3 class="!font-600">John Smith</h3>
+                                <p>CEO and Founder</p>
+                            </div>
+                        </div>
+                        <div class="pt-5 border-t-[1px] border-black">
+                            <p>10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy</p>
+                        </div>
+                    </div>
+                    <!-- this is card -->
+                    <div class="team__card lg:max-w-[387px] relative mx-auto md:mx-0 min-[400px]:max-w-[90%]
+                    min-[500px]:max-w-[70%] md:max-w-[350px]">
+                        <span class="absolute bg-black rounded-full size-10 right-7 top-7 flex items-center justify-center">
+                            <img src="./images/index/svg/team__icon.svg" alt="">
+                        </span>
+                        <div class="flex items-end gap-5 mb-5">
+                            <img src="./images/index/team_2.png" alt="photo team">
+                            <div>
+                                <h3 class="!font-600">Jane Doe</h3>
+                                <p>Director of Operations</p>
+                            </div>
+                        </div>
+                        <div class="pt-5 border-t-[1px] border-black">
+                            <p>7+ years of experience in project management and team leadership. Strong organizational and communication skills</p>
+                        </div>
+                    </div>
+                    <!-- this is card -->
+                    <div class="team__card lg:max-w-[387px] relative mx-auto md:mx-0 min-[400px]:max-w-[90%]
+                    min-[500px]:max-w-[70%] md:max-w-[350px]">
+                        <span class="absolute bg-black rounded-full size-10 right-7 top-7 flex items-center justify-center">
+                            <img src="./images/index/svg/team__icon.svg" alt="">
+                        </span>
+                        <div class="flex items-end gap-5 mb-5">
+                            <img src="./images/index/team_3.png" alt="photo team">
+                            <div>
+                                <h3 class="!font-600">Michael Brown</h3>
+                                <p>Senior SEO Specialist</p>
+                            </div>
+                        </div>
+                        <div class="pt-5 border-t-[1px] border-black">
+                            <p>5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization</p>
+                        </div>
+                    </div>
+                    <!-- this is card -->
+                    <div class="team__card lg:max-w-[387px] relative mx-auto md:mx-0 min-[400px]:max-w-[90%]
+                    min-[500px]:max-w-[70%] md:max-w-[350px]">
+                        <span class="absolute bg-black rounded-full size-10 right-7 top-7 flex items-center justify-center">
+                            <img src="./images/index/svg/team__icon.svg" alt="">
+                        </span>
+                        <div class="flex items-end gap-5 mb-5">
+                            <img src="./images/index/team_4.png" alt="photo team">
+                            <div>
+                                <h3 class="!font-600">Emily Johnson</h3>
+                                <p>PPC Manager</p>
+                            </div>
+                        </div>
+                        <div class="pt-5 border-t-[1px] border-black">
+                            <p>3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis</p>
+                        </div>
+                    </div>
+                    <!-- this is card -->
+                    <div class="team__card hidden md:block lg:max-w-[387px] relative mx-auto md:mx-0 min-[400px]:max-w-[90%]
+                    min-[500px]:max-w-[70%] md:max-w-[350px]">
+                        <span class="absolute bg-black rounded-full size-10 right-7 top-7 flex items-center justify-center">
+                            <img src="./images/index/svg/team__icon.svg" alt="">
+                        </span>
+                        <div class="flex items-end gap-5 mb-5">
+                            <img src="./images/index/team_5.png" alt="photo team">
+                            <div>
+                                <h3 class="!font-600">Brian Williams</h3>
+                                <p>Social Media Specialist</p>
+                            </div>
+                        </div>
+                        <div class="pt-5 border-t-[1px] border-black">
+                            <p>4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement</p>
+                        </div>
+                    </div>
+                    <!-- this is card -->
+                    <div class="hidden md:block team__card lg:max-w-[387px] relative mx-auto md:mx-0 min-[400px]:max-w-[90%]
+                    min-[500px]:max-w-[70%] md:max-w-[350px]">
+                        <span class="absolute bg-black rounded-full size-10 right-7 top-7 flex items-center justify-center">
+                            <img src="./images/index/svg/team__icon.svg" alt="">
+                        </span>
+                        <div class="flex items-end gap-5 mb-5">
+                            <img src="./images/index/team_6.png" alt="photo team">
+                            <div>
+                                <h3 class="!font-600">Sarah Kim</h3>
+                                <p>Content Creator</p>
+                            </div>
+                        </div>
+                        <div class="pt-5 border-t-[1px] border-black">
+                            <p>2+ years of experience in writing and editing<br>Skilled in creating compelling, SEO-optimized content for various industries</p>
+                        </div>
+                    </div>
+                 </div>
+                 <a href="#" class="btn max-w-full md:max-w-[230px] bg-secondary text-white ml-auto">See all team</a>
+            </div>
+         </section>
+         <!-- this is section comment  -->
+         <sections class="mb-20">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col items-center md:flex-row gap-10 md:items-start mb-20">
+                    <h2 class="bg-primary py-2 px-3 text-4xl !font-700 rounded-md text-center ">Testimonials</h2>
+                    <p class="max-w-[430px] text-center md:text-left ">Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services</p>
+                </div>
+                <!-- this is  wrapper for box comment -->
+                <div class="bg-secondary text-white p-10 md:pt-20 rounded-[40px]  md:gap-20 md:overflow-x-hidden">   
+                    <!-- this is for content -->
+                    <div class="flex justify-center gap-30">
+                        <div>
+                            <div class="relative rounded-[40px] border-[3px] border-primary md:w-[530px] p-10">
+                                <p class="line-clamp-6">"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</p>
+                                <span class="absolute h-1 -bottom-1 w-16 bg-secondary"></span>
+                                <span class="absolute h-[2px] left-[32px] rounded-4xl -bottom-[18px] w-12 bg-primary rotate-45"></span>
+                                <span class="absolute h-[2px] left-[65px] -bottom-[18px] w-12 bg-primary -rotate-45"></span>
+                            </div>
+                            <div  class="mt-14 pl-20">
+                                <p class="text-primary">John Smith</p>
+                                <p>Marketing Director at XYZ Corp</p>
+                            </div>
+                        </div>
+                        
+                        <!-- this is for box -->
+                        <div class="hidden md:block ">
+                            <div class="hidden md:block relative rounded-[40px] border-[3px] border-primary md:w-[530px]   p-10">
+                                <p>"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</p>
+                                <span class="absolute h-1 -bottom-1 w-16 bg-secondary"></span>
+                                <span class="absolute h-[2px] left-[32px] rounded-4xl -bottom-[18px] w-12 bg-primary rotate-45"></span>
+                                <span class="absolute h-[2px] left-[65px] -bottom-[18px] w-12 bg-primary -rotate-45"></span>
+                            </div>
+                            <div  class="mt-14 pl-20">
+                                <p class="text-primary">John Smith</p>
+                                <p>Marketing Director at XYZ Corp</p>
+                            </div>
+                        </div>
+    
+                        <!-- this is for box -->
+                        <div class="hidden md:block ">
+                            <div class="relative rounded-[40px] border-[3px] border-primary md:w-[530px]   p-10">
+                                <p>"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</p>
+                                <span class="absolute h-1 -bottom-1 w-16 bg-secondary"></span>
+                                <span class="absolute h-[2px] left-[32px] rounded-4xl -bottom-[18px] w-12 bg-primary rotate-45"></span>
+                                <span class="absolute h-[2px] left-[65px] -bottom-[18px] w-12 bg-primary -rotate-45"></span>
+                            </div>
+                            <div  class="mt-14 pl-20">
+                                <p class="text-primary">John Smith</p>
+                                <p>Marketing Director at XYZ Corp</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full max-w-[530px] mx-auto flex justify-between items-center mt-20">
+                        <span class="text-3xl">
+                            <i class="fa fa-arrow-left text-gray-400 cursor-pointer"></i>
+                        </span>
+
+                            <div class="flex justify-between gap-2 sm:gap-7">
+                                <img class="cursor-pointer" src="./images/index/svg/Testimonials_green.svg" alt="icon Testimonials">
+                                <img class="cursor-pointer" src="./images/index/svg/Testimonials.svg" alt="icon Testimonials">
+                                <img class="cursor-pointer" src="./images/index/svg/Testimonials.svg" alt="icon Testimonials">
+                                <img class="cursor-pointer" src="./images/index/svg/Testimonials.svg" alt="icon Testimonials">
+                                <img class="cursor-pointer" src="./images/index/svg/Testimonials.svg" alt="icon Testimonials">
+                            </div>
+
+                        <span class="text-3xl">
+                            <i class="fa fa-arrow-right text-white cursor-pointer"></i>
+                        </span>
+                        
+                    </div>
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+         </section>
+         <!-- this is section contact us -->
+         <section class="mt-30 overflow-hidden">
+            <div class="container mx-auto p-4">
+                <div class="flex flex-col items-center md:flex-row gap-10 md:items-start mb-20">
+                    <h2 class="bg-primary py-2 px-3 text-4xl !font-700 rounded-md text-center ">Contact Us</h2>
+                    <p class="max-w-[300px] text-center md:text-left ">Connect with Us: Let's Discuss Your Digital Marketing Needs</p>
+                </div>
+                            <!-- this is wrapper for content -->
+
+            <div class="bg-third p-5 md:p-10 lg:p-20  flex justify-between relative rounded-[40px]">
+                <form action="" class="w-full lg:w-[50%]">
+                    <div class="flex gap-10">
+                        <div>
+                            <input type="radio" name="name" class="accent-primary size-5 cursor-pointer">
+                            <span>Say Hi</span>
+                        </div>
+                        <div>
+                            <input  class="accent-primary size-5 cursor-pointer" name="name" type="radio">
+                            <span>Get a Quote</span>
+                        </div>
+                    </div>
+                    <div class="mt-10">
+                        <label for="">Name</label>
+                        <input class="block border-[1px] w-full bg-white rounded-xl p-2 border-black" type="text" placeholder="Name">
+                    </div>
+                    <div class="mt-5">
+                        <label for="">Email*</label>
+                        <input class="block border-[1px] w-full bg-white rounded-xl p-2 border-black" type="text" placeholder="Email">
+                    </div>
+                    <div class="mt-5">
+                        <label for="">Email*</label>
+                        <textarea rows="7" class="block border-[1px] w-full bg-white rounded-xl p-2 border-black" name="" id="" placeholder="message"></textarea>
+                    </div>
+
+                    <button class="w-full bg-secondary cursor-pointer text-white rounded-xl py-5 block mt-10">Send Message</button>
+                </form>
+                
+                    <div class="hidden lg:block absolute -right-72 h-[600px]">
+                        <img class="h-full"  src="./images/index/contact.png" alt="shape contact">
+                    </div> 
+             
+            </div>
+            </div>
+         </section>
+    </main>
 </body>
 </html>
