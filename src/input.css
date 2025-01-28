@@ -36,6 +36,9 @@
 *{
     font-family: "GroteskRegular";
 }
+html{
+    scroll-behavior: smooth;
+}
 @theme {
    
     --breakpoint-2xl: initial;
